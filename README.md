@@ -37,11 +37,7 @@ npm run dev
 
 Open `http://localhost:5173`, paste a Groq API key in **Settings**, then open **Studio**.
 
-### Docker Compose (optional)
 
-```bash
-docker compose up --build
-```
 
 This starts Postgres (reserved for future persistence), the API on `http://localhost:8000`, and the Vite dev server on `http://localhost:5173` with `VITE_API_URL=http://localhost:8000`.
 
