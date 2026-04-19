@@ -1,0 +1,14 @@
+[project]
+name = "twinmind-backend"
+version = "0.1.0"
+description = "TwinMind FastAPI backend: Groq Whisper + GPT-OSS proxy with structured logging."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.136.0",
+    "httpx>=0.28.1",
+    "pydantic-settings>=2.13.1",
+    "python-multipart>=0.0.26",
+    "structlog>=25.5.0",
+    "uvicorn[standard]>=0.44.0",
+]
